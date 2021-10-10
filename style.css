@@ -6,7 +6,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 .wrap {
-    width: 1150px;
+    width: 1140px;
     margin: auto;
 }
 .header {
@@ -102,4 +102,109 @@
     width: 55px;
     height: 130px;
     margin: 0 0 130px 1000px;
+}
+.world {
+    width: 100%;
+    height: 1240px;
+    background: #000000;
+}
+.world__wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.world__block-top {
+    margin: 84px 0 22px 0;
+}
+.world__text {
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+}
+.world__atmosphere-peace {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 90px;
+}
+.world__title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 79px;
+    margin-bottom: 32px;
+}
+.world__text-title {
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+}
+.world__fabulous-places {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.place__gullfoss {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(./css/Gullfoss.png);
+    width: 350px;
+    height: 550px;
+}
+.place__reykjavik {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(./css/Reykjavik.png);
+    width: 350px;
+    height: 550px;
+}
+.place__myvatn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(./css/Myvatn.png);
+    width: 350px;
+    height: 550px;
+}
+.place__title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: 0.04em;
+}
+.place__text {
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    margin: 5px 0 50px 0;
+}
+.slidershow {
+    display: flex;
+    margin-top: 90px;
+}
+.key {
+    width: 34px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: #212122;
+    cursor: pointer;
+    color: #fff;
+}
+.bar {
+    width: 31px;
+    height: 2px;
+    margin: 15px;
+    cursor: pointer;
+    border: 2px solid #212122;
 }
